@@ -1,6 +1,6 @@
 //your JS code here. If required.
 let student = {
-	name:Abhishek
+	name:"Abhishek"
 }
 
 let getKeys = (obj){
