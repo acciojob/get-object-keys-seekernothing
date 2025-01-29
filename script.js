@@ -1,9 +1,8 @@
-//your JS code here. If required.
 let student = {
-	name:"Abhishek"
-}
+    name: "Abhishek"
+};
 
-let getKeys = (obj){
-	return objects.keys(obj);
-
-console.log(getKeys(student))
+// Add getKeys method to Object prototype
+Object.prototype.getKeys = function() {
+    return Object.keys(this);
+};
